@@ -183,7 +183,7 @@ namespace CyberSecurityChatbotGUI
             }
 
             // Show activity log NLP
-            if (normalizedInput.Contains("what have you done") || normalizedInput.Contains("summary") || normalizedInput.Contains("show my tasks") || normalizedInput.Contains("activity log") || normalizedInput.Contains("show activity log"))
+            if (normalizedInput.Contains("what have you done") || normalizedInput.Contains("summary") || normalizedInput.Contains("show my tasks") || normalizedInput.Contains("activity log") || normalizedInput.Contains("show activity log")) 
             {
                 AppendBotMessage("CyberSecurityBot: Here's a summary of recent actions:");
                 var recentLogs = activityLog.Count > 10 ? activityLog.GetRange(activityLog.Count - 10, 10) : activityLog;
