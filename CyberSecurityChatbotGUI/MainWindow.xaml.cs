@@ -342,7 +342,7 @@ namespace CyberSecurityChatbotGUI
             return null;
         }
 
-        private void LogActivity(string message)
+        private void LogActivity(string message) 
         {
             string timestamped = $"{DateTime.Now:HH:mm:ss} - {message}";
             activityLog.Add(timestamped);
