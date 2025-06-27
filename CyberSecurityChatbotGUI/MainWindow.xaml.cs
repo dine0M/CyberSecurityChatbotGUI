@@ -226,7 +226,7 @@ namespace CyberSecurityChatbotGUI
             AppendBotMessage("CyberSecurityBot: I'm not sure how to help with that. Try asking about tasks, reminders, or quizzes!");
         }
 
-        private void AddTaskButton_Click(object sender, RoutedEventArgs e)
+        private void AddTaskButton_Click(object sender, RoutedEventArgs e) 
         {
             var task = new TaskItem
             {
