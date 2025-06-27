@@ -151,7 +151,7 @@ namespace CyberSecurityChatbotGUI
             }
 
             // Reminder and task NLP
-            if (normalizedInput.Contains("remind me to") || normalizedInput.Contains("add a task") || normalizedInput.Contains("set a reminder") || normalizedInput.Contains("schedule"))
+            if (normalizedInput.Contains("remind me to") || normalizedInput.Contains("add a task") || normalizedInput.Contains("set a reminder") || normalizedInput.Contains("schedule")) 
             {
                 string title = ExtractTaskTitle(input);
                 DateTime? dueDate = ExtractDate(input);
