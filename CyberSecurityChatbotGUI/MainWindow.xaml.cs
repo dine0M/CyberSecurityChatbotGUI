@@ -174,7 +174,7 @@ namespace CyberSecurityChatbotGUI
             }
 
             // Start quiz NLP
-            if (normalizedInput.Contains("start quiz") || normalizedInput.Contains("quiz me") || normalizedInput.Contains("ask me a question"))
+            if (normalizedInput.Contains("start quiz") || normalizedInput.Contains("quiz me") || normalizedInput.Contains("ask me a question")) 
             {
                 currentQuizIndex = 0;
                 ShowQuizQuestion();
