@@ -252,7 +252,7 @@ namespace CyberSecurityChatbotGUI
             }
         }
 
-        private void CompleteTaskButton_Click(object sender, RoutedEventArgs e)
+        private void CompleteTaskButton_Click(object sender, RoutedEventArgs e) 
         {
             if (TaskListBox.SelectedItem is TaskItem selected)
             {
